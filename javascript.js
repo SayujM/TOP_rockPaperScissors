@@ -1,0 +1,1 @@
+console.log("Let's build the game Rack-Paper-Scissors!");
