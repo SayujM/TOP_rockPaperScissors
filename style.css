@@ -1,1 +1,103 @@
 /* Style sheet to be used in the project */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('background3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.welcome{
+    margin-bottom: 30px;
+    font-size: x-large;
+    color: #306;
+}
+
+.result{
+    margin: 20px 0 20px 0;
+    font-size: x-large;
+}
+
+.scoreboard{
+    margin: 0 0 20px 0;
+    font-size: x-large;
+    color: #306;
+}
+
+.score{
+    margin: 0 0 20px 0;
+    font-size: x-large;
+    color: #306;
+}
+
+.message{
+    font-size: x-large;
+}
+
+.green{
+    color: white;
+    background-color: darkgreen;
+}
+
+.red{
+    color: white;
+    background-color: darkred;
+}
+
+.yellow{
+    color: black;
+    background-color: yellow;
+}
+
+img{
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    
+    
+}
+
+.rock, .paper, .scissors{
+    display: flex;
+    margin-right: 10px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock > div, .paper > div, .scissors > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch; 
+    width: 100%; 
+}
+
+.btn_rock, .btn_paper, .btn_scissors {
+    flex-grow: 1;
+    width: 100%;
+    background-color: #3882f6;
+    color: white;
+    border-top: 2px double white;
+    border-bottom: 2px double white;
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+}
